@@ -23,7 +23,7 @@ I went with App Service because the CMS app is very simple one, and is not expec
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.*
 
 #### VM
-I would have used a VM if the app the requirements changed for example; if the app needed more compute power, needed to use an unsupported language feature or OS customization
+I would have used a VM if the app the requirements changed, for example; if the app needed more compute power, needed to use an unsupported language feature; or OS customization. A VM is better suited to handle any of the needs stated above.
 
 #### App Service
-I would have changed my previous decision if the CMS app required more compute power or had been expected to handle a vast increase in the number of users, with separate, dedicated servers. A VM would be the ideal choice in that instance.
+I would have changed my previous decision if the CMS app required more compute power, an unsupported language feature or had been expected to handle a vast increase in the number of users, with separate, dedicated servers. A VM would be the ideal choice in terms of costs, scalability, availability, and workflow.
